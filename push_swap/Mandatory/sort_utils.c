@@ -19,6 +19,8 @@ int	*list_to_arr(t_list *stack_a)
 	int		i;
 
 	arr = malloc(ft_lstsize(stack_a) * sizeof(int));
+	if (!arr)
+		return (NULL);
 	la = stack_a;
 	i = 0;
 	while (la)
