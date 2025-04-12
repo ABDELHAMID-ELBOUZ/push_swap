@@ -18,7 +18,6 @@ FLAGS = -Wall -Wextra -Werror -g -g -fsanitize=address,undefined
 
 RM = rm -f
 
-
 SRCS = Mandatory/main.c Mandatory/ft_format.c Mandatory/ft_puthexa.c  Mandatory/ft_putptr.c   Mandatory/ft_putunint.c \
 Mandatory/ft_printf.c   Mandatory/ft_putchar.c  Mandatory/ft_putnbr.c   Mandatory/ft_putstr.c Mandatory/ft_strchr.c \
 Mandatory/parser.c Mandatory/ft_atoi.c Mandatory/ft_strlen.c Mandatory/parser_help.c Mandatory/ft_strdup.c \
